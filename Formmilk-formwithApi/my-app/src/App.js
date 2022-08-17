@@ -5,7 +5,7 @@ import axios from "axios";
 import * as Yup from 'yup';
 function App() {
   const validationSchema = ()=> {
-
+      // yup comman
     return Yup.object().shape({
       title:Yup.string()
       .required("Titlt is required")
