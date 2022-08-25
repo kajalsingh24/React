@@ -101,9 +101,9 @@ export default function Form3() {
                           <div key={index} className="mt-6">
                             <label>Qualification</label>
                               <Field as="select" name={`education.${index}.qualification`}  >
-                                <option value="red">10th</option>
+                                <option value="deafult"></option>
                                 <option value="green">12th</option>
-                                <option value="blue">Diploma</option>
+                                <option value="blue">Diploma</option> 
                                 <option value="blue">Degree</option>
                                 <option value="blue">Master</option>
                                   </Field>
